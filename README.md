@@ -29,12 +29,10 @@ resource.js
 1. lazyloadimg:  how to lazy load image in seo page
 2. loadjs: concurrency download, load multi-times, multi-callbacks
 
-/*
-	var loadjs = loadJS();
-	loadjs(url1, url2, fn1, url3, fn2);
-	loadjs(url1);
-	loadjs(url1, url4, fn3);
-*/
+* var loadjs = loadJS();
+* loadjs(url1, url2, fn1, url3, fn2);
+* loadjs(url1);
+* loadjs(url1, url4, fn3);
 
 3. arrange resource loading order
 4. pre-load templates
