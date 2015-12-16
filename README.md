@@ -17,6 +17,7 @@ js
 3. debounce: multi-action in short time, only trigger last one. support multi-fn share same timeout
 4. rebounce: when multi-ajax/promise-actions triggered by user, cancel previous actions, only apply the last one. support different action types, keyed by fn.prototype
 5. zero impact on global(windwo)
+6. url share: change search criteria change url, refresh url go to exact same page
 
 seo
 
